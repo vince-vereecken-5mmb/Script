@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Vince" content="Een applicatie voor te gaan matchen">
+        
+        <title>HTML GameMatcher</title>
+
+    </head>
+
+    <body class="background" style="color: white;">
+       <header>
+            <h1>GameMatcher</h1>
+            <p>Zoek je een gamebuddy?</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#intro">intro</a>
+                    </li>
+                    <li>
+                        <a href="#Form">forms</a>
+                    </li>
+                    <li>
+                        <a href="#Afsluiter">Laatste woord</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+            <img src="Images/controller.jpg" alt="" width="400">
+       </header>
+
+       <main>
+        <section id="intro">
+           <h1>Vul dit formulier in en vind jouw perfecte match!</h1>
+        </section>
+       
+            <section id="Form">
+                <form action="">
+                    <fieldset>
+                        <legend><p>Game</p></legend>
+                        <input type="radio" name="Game" value="Fortnite">Fortnite <br>
+                        <input type="radio" name="Game" value="Valorant">Valorant <br>
+                        <input type="radio" name="Game" value="Minceraft">Minecraft <br>
+                        <input type="radio" name="Game" value="COD">COD <br>
+                        <input type="radio" name="Game" value="CSGO">CSGO <br>             
+                    </fieldset> 
+
+                    <fieldset>
+                        <legend>Tag:</legend>                    
+                        <textarea name="Valorant tag" cols="30" rows="1" placeholder="GameTag#0000"></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Welk platform?</legend>
+                        
+                        <input type="checkbox" name="platform">Computer
+                        <input type="checkbox" name="platform">Playstation
+                        <input type="checkbox" name="platform">Switch
+                        <input type="checkbox" name="platform">Nintendo
+                        <input type="checkbox" name="platform">Xbox
+                    </fieldset>
+                   
+                    <fieldset>
+                        <legend>Hoeveel uur speel je per dag?</legend>
+                        <input type="number" name="hoelang" placeholder="0 uur">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Leeftijd:</legend>
+                        </select>
+                        
+                        <select name="jaar">
+                            <option value="jaar">jaar</option>
+                            <option value="1972">1972</option>
+                            <option value="1973">1973</option>
+                            <option value="1974">1974</option>
+                            <option value="1975">1975</option>
+                            <option value="1976">1976</option>
+                            <option value="1977">1977</option>
+                            <option value="1978">1978</option>
+                            <option value="1979">1979</option>
+                            <option value="1980">1980</option>
+                            <option value="1981">1981</option>
+                            <option value="1982">1982</option>
+                            <option value="1983">1983</option>
+                            <option value="1984">1984</option>
+                            <option value="1985">1985</option>
+                            <option value="1986">1986</option>
+                            <option value="1987">1987</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                            <option value="2011">2011</option>
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+
+                        </select>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Zeg Wat Meer</legend>
+                        <textarea name="More Info" cols="60" rows="20" placeholder="Zeg wat meer over jezelf..."></textarea>
+                    </fieldset>
+
+                    <br>
+                </form> 
+            </section>
+
+            <section id="Afsluiter">
+                <p>Voeg je toe bij onze geweldige <a href="https://discord.com/invite/totalgaming"> Discord </a>voor alle voordelen die erbij komen</p>
+                <ul>
+                    <li>Geweldige community</li>
+                    <li>24/7 online members</li>
+                    <li>proffesionele mods</li>
+                </ul>
+            </section>
+            <button type="submit">submit</button>
+            <button type="reset">Reset</button>
+       </main>
+        
+        <div class="background"></div>
+    </body>
+
+
+
+
+    <style>
+        .background{
+            background-image: url(./Images/Background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+        a{
+            color: lightblue;
+        }
+    </style>
+</html>
