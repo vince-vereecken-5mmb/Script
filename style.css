@@ -1,10 +1,12 @@
 body{
-    background-color:rgb(80, 135, 145);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     color: aliceblue;
-    
+    background-image: url(/images/joseph-barrientos-oQl0eVYd_n8-unsplash.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 #flexbox{
     display: flex;
@@ -16,13 +18,13 @@ body{
     border: solid rgb(255, 255, 255);
     border-radius: 10%;
     margin-left: 1%;
-    background-color:rgb(191, 228, 236);
-    color: rgb(0, 0, 0);
+    background-color:rgba(191, 228, 236, 0.422);
+    color: rgb(255, 255, 255);
 }
 #nav a{
     text-decoration: none;
     color: aliceblue;
-    background-color: rgb(86, 154, 173);
+    background-color: rgba(86, 154, 173, 0.646);
     display:block;
     padding: 2% 10%;
     margin: 2%;
