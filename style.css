@@ -28,7 +28,7 @@ body{
     margin: 2%;
 }
 #nav a:hover{
-    background-color: rgba(240, 248, 255, 0);
+    background-color: rgba(0, 0, 0, 0.053);
     color: black;
 }
 header{
