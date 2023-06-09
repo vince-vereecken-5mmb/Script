@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  
+  body {
+    font-family: 'Corbel', sans-serif;
+    background-image: url(/Ui/images/chuck-fortner-LFVBohYmtgc-unsplash.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+  }
+  
+  header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(19, 20, 20, 0.425);
+  }
+  
+  nav a:hover{
+    font-size: xx-large;
+  }
+  
+  .row-1 {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #0f0c0c67;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0 20px;
+  }
+
+  
+  
+  .row-2 {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .hero-section {
+    width: 50%;
+    text-align: center;
+    color: #333;
+    }
+    
+    .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    }
+    
+    .hero-section h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 20px;
+    }
+    
+    .hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    }
+    
+    button {
+    background-color: #3b2a2a05;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: cell;
+    }
+    
+    .row-3 {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .social-links a {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0 20px;
+    }  
+    .footer-section {
+      margin-bottom: 30px;
+      width: 25%;
+    }
+    .footer-section h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }

@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+/* Style the images */
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column {
+    flex: 1;
+    margin: 10px;
+  }
+
+  .column img {
+    width: 100%;
+    height: auto;
+  }
